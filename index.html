@@ -132,16 +132,32 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/topics/01-thumbnail.jpg" alt="" />
+                                <img class="img-fluid" src="./assets/img/antibiotici/Penicillin_core.svg.png" alt="" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Penicilline</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
+                                <!--div class="portfolio-caption-subheading text-muted">Identity</div-->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#antibioticoresistenza">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="./assets/img/antibiotici/antibiotico resistenza2.PNG" alt="" />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">L'antibiotico-Resistenza</div>
+                        <!--div class="portfolio-caption-subheading text-muted">Identity</div-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
         </section>
 
         <section class="page-section bg-light portfolio" id="analgesici">
@@ -488,12 +504,26 @@
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">penicilline</h2>
-                                    <p class="item-intro text-muted">Sottotitolo della sezione in corsivo perché fa figo.</p>
-                                    <p class="text-justify">Qua potete inserire la roba, divertitevi.
-                                        L'importante è rimanere all'interno di questo div.
-                                        Ricordatevi che i tag di testo devono avere la classe text-justify altrimenti li mette di default al centro come il titolo.
+                                    <!--p class="item-intro text-muted">Sottotitolo della sezione in corsivo perché fa figo.</p-->
+                                    <p class="text-justify">Le penicilline sono caratterizzate da una struttura molto particolare che è al contempo fonte di difficoltà nella loro produzione e merito della loro efficacia
                                     </p>
-                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <div><img src="./assets/img/antibiotici/betalattame.jpg" class="img-fluid"></div>
+                                    <p class="text-justify">Al suo interno è infatti presente un anello a quattro atomi di cabonio (anello del β-lattame) altamente instabile.
+                                        Uno dei carboni è infatti ibridato sp2, (per cui gli si dovrebbero disporre con un angolo di legame di 120°), mentre gli altri carboni (ibridati sp3) e l'azoto
+                                        tenderebbero a formare angoli di 109°   
+                                        <br><img src="./assets/img/antibiotici/angoli_legame.jpg" class="img-fluid"><br>
+                                        Gli atomi però sono disposti con angoli di 90° e quindi l'anello presenta una tensione molto elevata e tende natrualmente ad aprirsi
+                                    </p>
+                                    <p class="text-justify">I batteri producono un'enzima che è necessario per sintetizzare la loro parete cellulare. 
+                                        La penicillina interagisce col gruppo -OH di quell'enzima secondo il seguente meccanismo (si dice che l'enzima viene acilato, ovvero gli viene attaccato un gruppo COR', al posto dell'idrogeno del gruppo ossidrile)   
+                                     <br><img src="./assets/img/antibiotici/meccanismo penicillina.jpg" class="img-fluid"><br>
+                                     in questo modo l'enzima viene disattivato e i batteri non sono più in grado di creare la parete cellulare</p>
+                                    <p class="text-justify">Non essendo dotate di parete ma di membrana le cellule umane non risentono di effetti collaterali a causa della penicillina</p>
+                                    <p class="text-justify">Esistono molte penicilline diverse, che variano per la catena laterale
+                                        <br><img src="./assets/img/antibiotici/tipi penicilline.png" class="img-fluid"><br>
+                                    </p>
+                                    <p class="text-justify">Una caratteristica delle penicilline è che, a differenza dei sulfamidici, non resiste ad alte temperature (esse causano infatti la apertura dell'anello) </p>
+                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
                                         Chiudi approfondimento
                                     </button>
@@ -530,6 +560,44 @@
                                         <p class="text-justify">Il farmaco non causa problemi all'uomo perché l'acido folico non può essere sintetizzato e deve essere assunto tramite l'alimentazione.
                                             <br>inoltre si è dimostrato che i sulfamidici più efficaci sono quelli dove il gruppo ammidico è sostituito da altri gruppi.
                                         </p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Chiudi approfondimento
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="antibioticoresistenza" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">antibiotico-resistenza</h2>
+                                    <p class="item-intro text-muted">Un fenomeno molto pericoloso</p>
+                                    <p class="text-justify">Qua potete inserire la roba, divertitevi.
+                                        L'antibiotico-resistenza è la capacità di alcuni batteri di sviluppare una resistenza agli antibiotici,
+                                        che quindi diventano inefficaci. Si tratta di una problematica estremamente grave, che porta ad epidemie dalla letalità elevatissima (mortalità tra il 72%-90%)
+                                        Molto spesso inoltre sono proprio questi batteri i responsabili delle epidemie ospedialiere.
+                                        Un esempio emblematico è lo Staphylococcus aureus, resistente a praticamente tutti i tipi di penicillina.<p>
+                                        <div><img src="./assets/img/antibiotici/stafilococcoaureus.jpg"></div>
+                                        <p>I geni responsabili dell'antibiotico resistenza vengono trasmessi grazie ai plasmidi R (plasmidi batterici trasmissibili)
+                                            <div><img src="assets/img/antibiotici/plasmidi.png" class="img-fluid"></div>
+                                        </p>
+                                    <p class="text-justify">Le cause dell'aumento dell'antibiotico resistenza secondo
+                                        <ul class="text-justify">
+                                            <li>Prescrizioni eccessive di antibiotici</li>
+                                            <li>Somministrazioni di dosi al di sotto di quelle ottimali, che quindi non eliminano completamente l'infezione</li>
+                                            <li>Durata insufficiente del trattamento antibiotico</li>
+                                            <li>Erroneo trattamento con terapia antibiotica per infezioni virali comuni</li>
+                                        </ul>
+                                    </p>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
                                         Chiudi approfondimento
