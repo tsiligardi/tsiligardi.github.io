@@ -27,7 +27,7 @@
                                 Categorie Farmaci
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item js-scroll-trigger" href="#antibiotici">Antibiotici</a>
+                                <a class="dropdown-item js-scroll-trigger" href="#antibiotici" onclick="tutorial()">Antibiotici</a>
                                 <a class="dropdown-item js-scroll-trigger" href="#analgesici">Analgesici</a>
                                 <a class="dropdown-item js-scroll-trigger" href="#sedativi">Sedativi e ipnotici</a>
                                 <a class="dropdown-item js-scroll-trigger" href="#psicostimolanti">Psicostimolanti</a>
@@ -53,8 +53,23 @@
         <section class="page-section" id="introduzione">
             <div class="container">
                 <div class="text-center">
+                    <h2 class="section-heading text-uppercase" style="margin-bottom: 5px;">Cosa è un farmaco?</h2>
+                    <h3 class="section-subheading text-muted" style="margin-bottom: 5px;">Qualche definizione per iniziare...</h3>
+                </div>
+                <p class="text-justify">
+                    Il termine farmaco indica un una sostanza chimica naturale o artificiale capace di indurre un cambiamento all'interno delle funzioni biologiche di un organismo. Essi, per le loro potenzialità e capacità, ricoprono un ruolo centrale
+                    nella medicina moderna, anche se talvolta il loro uso improprio può provocare gravi danni al soggetto.
+                    Ogni farmaco (o forma farmaceutica) è caratterizzato dalle seguenti componenti:
+                </p>
+                <div class="text-justify" style="margin-bottom: 40px;">
+                    <ul>
+                        <li>Un <b>nome commerciale</b>: esso è il nome d'uso del farmaco con cui viene commercializzato dalla casa farmaceutica produttrice e non influisce sul farmaco stesso (farmaci con nomi diversi ma stesso principio attivo hanno virtualmente lo stesso effetto).</li>
+                        <li>Uno o più <b>principi attivi</b>: con questo termine ci si riferisce alle sostanze chimiche contenute nel farmaco responsabili dell'attività dello stesso. A seconda del metodo con cui vengono prodotti si parla di principi attivi <i>naturali</i> o <i>sintetici</i>.</li>
+                        <li>Uno o più <b>eccipienti</b>: tutte quelle sostanze contenute in un farmaco ma non responsabili <i>direttamente</i> della sua funzione sono definite eccipienti. Sono utilizzati per conferire una particolare forma e sapore al farmaco e possono contribuire a determinare le modalità di assunzione e l'efficacia dello stesso.</li>
+                    </ul>
+                </div>
+                <div class="text-center">
                     <h2 class="section-heading text-uppercase">Le tipologie di farmaco</h2>
-                    <h3 class="section-subheading text-muted">Queste sono le varie tipologie di farmaco:</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col">
@@ -373,10 +388,10 @@
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/appr-farmaci/1.jpg" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>1) SPERIMENTAZIONE PRECLINICA</h4>
+                                <h4>SPERIMENTAZIONE PRECLINICA</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">In questa fase si oserva come si comporta la molecola e qual è il suo livello di tossicità su un organismo complesso. Prevede:
-                                <ul class="text-muted">
+                            <div class="timeline-body"><p class="text-muted text-justify">In questa fase si oserva come si comporta la molecola e qual è il suo livello di tossicità su un organismo complesso. Prevede:
+                                <ul class="text-muted text-justify">
                                     <li>Studi in vitro: al fine di comprendere le caratteristiche della molecola da cui si ritiene di poter ricavare un farmaco</li>
                                     <li>Studi in vivo sugli animali: vengono eseguiti una volta che si è appurato in laboratorio che la molecola possiede potenziali effetti terapeutici</li>
                                 </ul>
@@ -387,12 +402,11 @@
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/appr-farmaci/2.jpg" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>2.1 VALUTAZIONE DEGLI EFFETTI FARMACOLOGICI E DELLA TOSSICITA'</h4>
+                                <h4>VALUTAZIONE DEGLI EFFETTI FARMACOLOGICI E DELLA TOSSICITA'</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">A questo punto inizia la sperimentazione clinica. In questa prima fase si tiene a privilegiare la sicurezza rispetto all'efficacia del farmaco.
+                            <div class="timeline-body"><p class="text-muted text-justify">A questo punto inizia la sperimentazione clinica. In questa prima fase si tiene a privilegiare la sicurezza rispetto all'efficacia del farmaco.
                                 Normalmente vi prendono parte pochi volontari sani (20-80) in centri selezionati e viene somministrato in diverse dosi. L'obiettivo principale è la valutazione degli effetti collaterali.
                                 Se essi si dimostrano accettabili rispetto ai benefici il farmaco può passare alle fasi successive
-
                             </p></div>
                         </div>
                     </li>
@@ -400,9 +414,9 @@
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/appr-farmaci/4.jpg" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-<                                <h4>2.2) STUDIO TERAPEUTICO-ESPLORATIVO</h4>
+                                <h4>STUDIO TERAPEUTICO-ESPLORATIVO</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">In questa fase si studia il reale beneficio terapeutico. Inoltre la fase serve ad individuare le migliori dosi del farmaco.
+                            <div class="timeline-body"><p class="text-muted text-justify">In questa fase si studia il reale beneficio terapeutico. Inoltre la fase serve ad individuare le migliori dosi del farmaco.
                                 Normalmente in questa fase vengono arruolati pazienti volontari affetti dalla malattia per cui il farmaco è stato pensato (circa 100-200)
                                 I partecipanti vengono divisi in due gruppi: ad uno viene somminisrato il farmaco, al resto dei pazienti il palcebo. Ogni paziente però non sa a che gruppo è stato assegnato.
                                 Il periodo dura normalmente un paio d'anni. A questo punto, se l'efficacia viene provata, il farmaco entra nell'ultima fase della sperimentazione clinica.
@@ -413,13 +427,13 @@
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/appr-farmaci/3.jpg" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>2.3) Valutazione clinica completa del trattamento</h4>
+                                <h4>Valutazione clinica completa del trattamento</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">E' la fase dei cosiddetti TCCR (Trial clinici randomizzati) per cui l'assegnazione del placebo avviene random (e non ad un gruppo definito di persone)</p></div>
+                            <div class="timeline-body"><p class="text-muted text-justify">E' la fase dei cosiddetti TCCR (Trial clinici randomizzati) per cui l'assegnazione del placebo avviene random (e non ad un gruppo definito di persone)
                             Inoltre si parla di migliaia di volontari. L'efficacia del farmaco, gli effetti collaterali e la qualità della vita dei pazienti che lo ricevano sono confrontate con quelli che hanno ricevuto il placebo,
                             ma anche con quelli che sono stati trattati con eventuali farmaci simili già in commercio, o che non hanno ricevuto alcun trattamento.
                             La durata della terza fase è in genere di alcuni mesi, ma gli effetti del farmaco vengono monitorati per 3-5 anni.
-                            Se il farmaco supera questa fase, l'associazione competente (In Italia l' AIFA) rilascia l'autorizzazione per la messa in commercio.
+                            Se il farmaco supera questa fase, l'associazione competente (In Italia l' AIFA) rilascia l'autorizzazione per la messa in commercio.</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
@@ -431,9 +445,9 @@
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/appr-farmaci/AIFA.jpg" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>3) FARMACOSORVEGLIANZA</h4>
+                                <h4>FARMACOSORVEGLIANZA</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Dopo la messa in commercio l'AIFA (Secondo le direttive dell'EMA, European Medicines Agency) continua a monitorare
+                            <div class="timeline-body"><p class="text-muted text-justify">Dopo la messa in commercio l'AIFA (Secondo le direttive dell'EMA, European Medicines Agency) continua a monitorare
                                 le segnalazioni di eventuali effetti collaterali dei farmaci.
                             </p></div>
                         </div>
@@ -458,7 +472,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/20210104_212938.jpg" alt="" />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="" />
                             <h4>Tommaso Siligardi</h4>
                             <p class="text-muted">Antibiotics & Drug development process</p>
                         </div>
@@ -477,12 +491,14 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Bibliografia</h2>
+                    <h2 class="section-heading text-uppercase">Bibliografia e sitografia</h2>
                     <h3 class="section-subheading white text-justify">
                         <ul class="text-justify">
                             <li>Colonna, B. (2016). Le basi chimiche della vita, Milano-Torino: Pearson Italia </li>
                             <li>Amendola, A., Messina, A., Pariani, E., Zappa, A. & Zipoli, G. (2012). Igiene e patologia. Bologna: Zanichelli editore S.p.A</li>
                             <li>Le Couteur, P. & Burreson, J. (2006).I bottoni di Napoleone. Milano: Longanesi</li>
+                            <li><a href="https://it.wikipedia.org/wiki/Principio_attivo">Definizione principio attivo</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/Eccipiente">Definizione Eccipiente</a></li>
                         </ul>
                     </h3>
                 </div>
@@ -1162,9 +1178,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
-        <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
 </html>
